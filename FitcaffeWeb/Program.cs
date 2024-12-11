@@ -15,7 +15,7 @@ namespace FitcaffeWeb
 
             builder.Services.AddMudServices();
 
-            builder.Services.AddBlazorBootstrap();
+            //builder.Services.AddBlazorBootstrap();
 
             var app = builder.Build();
 
