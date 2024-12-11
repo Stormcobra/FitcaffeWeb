@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blazor.Bootstrap" Version="3.2.0" />
     <PackageReference Include="MudBlazor" Version="7.15.0" />
   </ItemGroup>
 

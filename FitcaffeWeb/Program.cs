@@ -15,8 +15,6 @@ namespace FitcaffeWeb
 
             builder.Services.AddMudServices();
 
-            //builder.Services.AddBlazorBootstrap();
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
