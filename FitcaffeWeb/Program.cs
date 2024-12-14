@@ -1,4 +1,5 @@
 using FitcaffeWeb.Components;
+using MudBlazor.Services;
 
 namespace FitcaffeWeb
 {
@@ -7,6 +8,8 @@ namespace FitcaffeWeb
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddMudServices();
 
             // Add services to the container.
             builder.Services.AddRazorComponents()
