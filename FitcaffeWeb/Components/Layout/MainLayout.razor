@@ -8,7 +8,7 @@
         <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
         <MudSpacer />
         <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
-        <MudIconButton Icon="@Icons.Material.Filled.LightMode" Color="Color.Inherit" Edge="Edge.End" />
+        <MudIconButton Icon="@Icons.Material.Filled.LightMode" Color="Color.Inherit" Edge="Edge.End" onclick="@ThemeChange"></MudIconButton>
     </MudAppBar>
     <MudMainContent>
         @Body
@@ -45,4 +45,9 @@
             OverlayLight = "#1e1e2d80", 
         } 
     };
+
+    public void ThemeChange()
+    {
+        
+    }
 }
